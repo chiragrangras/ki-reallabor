@@ -2,12 +2,13 @@ body{
     background-image: url(./img/background.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100vw 80vh;
+    /* background-size: 100vw 80vh; */
+    background-size: 100% 100%;
 }
 
-.navbar{
+/* .navbar{
     padding: 1rem;
-}
+} */
 
 .logo{
     width: 30%;
@@ -44,4 +45,16 @@ body{
     font-size: 1.5rem;
     color: black;
     text-decoration: none;
+}
+
+.footer-1{
+    background-image: linear-gradient(to top left, #a7d5c8,#169b7c);
+}
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item:hover a{
+    color: white;
 }
