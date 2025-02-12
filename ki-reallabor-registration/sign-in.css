@@ -58,3 +58,18 @@ body{
 .nav-item:hover a{
     color: white;
 }
+
+.footer-link a{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-link:hover a{
+    color: black;
+}
+
+.footer-icon img{
+    width: 10rem;
+    cursor: pointer;
+}
