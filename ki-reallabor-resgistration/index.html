@@ -33,6 +33,56 @@
         </div>
     </nav>
     <!--navbar end-->
+
+    <!--main-section start-->
+    <div class="container">
+        <h1 class="text-secondary text-center mb-5">Register for an Account</h1>
+        <form id="register-entry-form">
+            <div class="input-group-lg mb-5" id="username">
+                <label class="form-label text-secondary text-label">* Username :</label>
+                <input type="text" class="form-control form-input" placeholder="username" required />
+            </div>
+            <div class="input-group-lg mb-5" id="fullname">
+                <label class="form-label text-secondary text-label">Full name :</label>
+                <input type="text" class="form-control form-input" placeholder="Max Mustermann" required />
+            </div>
+            <div class="input-group-lg mb-5" id="email">
+                <label class="form-label text-secondary text-label">* Email :</label>
+                <input type="text" class="form-control form-input" placeholder="max@exmaple.com" required />
+            </div>
+            <div class="input-group-lg mb-5" id="username">
+                <label class="form-label text-secondary text-label">* Username :</label>
+                <input type="text" class="form-control form-input" placeholder="username" required />
+            </div>
+            <div class="input-group-lg mb-5" id="group">
+                <label class="form-label text-secondary text-label">* Group :</label>
+                <select class="form-select form-input" aria-label="Default select example">
+                    <option selected>Choose a group</option>
+                    <option value="1">Science</option>
+                    <option value="2">Commerce</option>
+                    <option value="3">Art</option>
+                </select>
+            </div>
+            <div class="input-group-lg mb-5" id="pws">
+                <label class="form-label text-secondary text-label">* Password :</label>
+                <input type="text" class="form-control form-input" placeholder="*********" required />
+            </div>
+            <div class="input-group-lg mb-5" id="pws-confirm">
+                <label class="form-label text-secondary text-label">* Confrim :</label>
+                <input type="text" class="form-control form-input" placeholder="*********" required />
+            </div>
+            <div>
+                <label for="formFileLg" class="form-label text-label text-secondary">Profile picture :</label>
+                <input class="form-control form-control-lg form-input mb-4" id="formFileLg" type="file">
+                <label class="text-secondary text-label mb-4">* Required</label>
+            </div>
+            <div class="d-flex flex-column align-items-end justify-content-end">
+                <button type="button" class="btn btn-warning fs-3 btn-lg text-light">Create Account</button>
+            </div>
+        </form>
+    </div>
+    <!--main-section end-->
+
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./index.js"></script>
 </body>
