@@ -5,12 +5,13 @@ body{
 }
 
 .logo{
+    margin-left: 10%;
     width: 30%;
 }
 
 .navbar-nav a{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-right: 3rem;
 }
 
@@ -18,35 +19,41 @@ body{
     color: white;
 }
 
-.container{
-    margin-top: 5rem;
+.register-form-wrapper{
+    margin: 5rem auto;
+    width: 50vw;
+}
+
+.register-form{
     padding: 2rem;
     background-color: #F2F2F2;
     width: 50vw;
     border-radius: 1rem;
-    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 12px 0 #9d9b9b;
 }
 
 .text-label{
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1rem;
+}
+
+.select-form{
+    background-color: white;
+    color: #9a9a9a;
 }
 
 .form-input{
-    border-radius: 1rem;
-    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 2px 0 #9a9a9a;
 }
 
 .custom-file-upload {
     display: inline-block;
     padding: 1rem;
     cursor: pointer;
-    border: 2px solid #6c757d;
-    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 5px 0 #9d9b9b;
     text-align: center;
     background-color: white;
     color: black;
-    border-radius: 1rem;
+    border-radius: 0.8rem;
     width: 10vw;
 }
 

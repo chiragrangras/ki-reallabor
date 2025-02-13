@@ -15,51 +15,51 @@
 <body>
   <!--navbar start-->
   <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="../img/Logo.svg" class="logo" alt="logo" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link active" aria-current="page" href="#">Data</a>
-          <a class="nav-link" href="#">Realproduction</a>
-          <a class="nav-link" href="#">Show cases</a>
-          <a class="nav-link" href="#">About us</a>
-          <button type="button" class="btn btn-outline-light mx-3 btn-lg">Register</button>
-          <button type="button" class="btn btn-warning btn-lg text-light">Log in</button>
-        </div>
+    <a class="navbar-brand" href="#">
+      <img src="../img/Logo.svg" class="logo" alt="logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link active" aria-current="page" href="#">Data</a>
+        <a class="nav-link" href="#">Realproduction</a>
+        <a class="nav-link" href="#">Show cases</a>
+        <a class="nav-link" href="#">About us</a>
+        <button type="button" class="btn btn-outline-light mx-3 btn-lg">Register</button>
+        <button type="button" class="btn btn-warning btn-lg text-light">Log in</button>
       </div>
     </div>
   </nav>
   <!--navbar end-->
 
   <!--Main-section start-->
-  <div class="main-section">
-    <div class="container mb-3">
-      <h1 class="text-secondary text-center mb-5">Log In</h1>
-      <div class="d-flex justify-content-center mb-5 w-100">
-        <div class="input-group flex-nonwrap form-input">
-          <span class="input-group-text"><i class="fa-solid fa-envelope fa-xl" style="color: #6c757d;"></i></span>
-          <input type="text" class="form-control" id="username" placeholder="max.mustermann@xy.com" />
+  <div class="main-section container">
+    <div class="login-form-wrapper">
+      <div class="login-form">
+        <h2 class="text-secondary text-center mb-5">Log In</h2>
+        <div class="d-flex justify-content-center mb-5 w-100">
+          <div class="input-group flex-nonwrap form-input">
+            <span class="input-group-text"><i class="fa-solid fa-envelope fa-xl" style="color: #6c757d;"></i></span>
+            <input type="text" class="form-control" id="username" placeholder="max.mustermann@xy.com" />
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5 w-100">
+          <div class="input-group flex-nonwrap form-input">
+            <span class="input-group-text"><i class="fa-solid fa-lock fa-xl" style="color: #6c757d;"></i></span>
+            <input type="password" class="form-control" id="pws" placeholder="*******" />
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button type="button" class="login-form-btn btn btn-warning fs-4 btn-lg text-light">Log in</button>
         </div>
       </div>
-      <div class="d-flex justify-content-center mb-5 w-100">
-        <div class="input-group flex-nonwrap form-input">
-          <span class="input-group-text"><i class="fa-solid fa-lock fa-xl" style="color: #6c757d;"></i></span>
-          <input type="password" class="form-control" id="pws" placeholder="*******" />
-        </div>
+      <div class="login-form-extras d-flex justify-content-between action-link">
+        <a href="#">Forgot Password?</a>
+        <a href="../ki-reallabor-resgistration/index.html">Create new account</a>
       </div>
-      <div class="d-flex justify-content-center">
-        <button type="button" class="btn btn-warning fs-4 btn-lg text-light">Log in</button>
-      </div>
-    </div>
-    <div class="d-flex justify-content-center action-link">
-      <a href="#">Forgot Password?</a>
-      <a href="#">Create new account</a>
     </div>
   </div>
   <!--Main-section end-->
@@ -86,7 +86,7 @@
       </ul>
     </div>
 
-    <div class="footer-2 d-flex align-items-center justify-content-around mt-4">
+    <div class="footer-2 d-flex align-items-center justify-content-around">
       <div class="footer-link">
         <a href="#">Impressum</a>
       </div>
@@ -94,10 +94,11 @@
         <a href="#">www.ki-realbor.de/en</a>
       </div>
       <div class="footer-icon">
-        <img src="../img/footer-logo-1.jpeg" class="footer-icon-logo" alt="footer-logo-1"/>
+        <img src="../img/footer-logo-1.jpeg" class="footer-icon-logo" alt="footer-logo-1" />
       </div>
-      <div class="footer-icon">
-        <img src="../img/footer-logo-2.jpeg" class="footer-icon-logo" alt="footer-logo-2"/>
+      <div class="footer-icon d-flex flex-column align-items-center">
+        <span>Supported by:</span>
+        <img src="../img/footer-logo-2.jpeg" class="footer-icon-logo" alt="footer-logo-2" />
       </div>
     </div>
   </div>

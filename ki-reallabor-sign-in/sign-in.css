@@ -9,12 +9,13 @@ body{
 }
 
 .logo{
+    margin-left: 10%;
     width: 30%;
 }
 
 .navbar-nav a{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-right: 3rem;
 }
 
@@ -22,13 +23,17 @@ body{
     color: white;
 }
 
-.container{
-    margin-top: 5rem;
-    background-color: white;
+.login-form-wrapper{
+    margin: 5rem auto;
+    width: 35vw;
+}
+
+.login-form{
+    background-color: #f2f2f2;
     border-radius: 1rem;
     padding: 2rem;
     width: 35vw;
-    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 12px 0 #9d9b9b;
 }
 
 .input-group-text{
@@ -39,15 +44,16 @@ body{
     width: 60%;
 }
 
-.action-link a{
-    margin: 0 3rem;
-    font-size: 1.5rem;
-    color: black;
-    text-decoration: none;
+.login-form-btn{
+    padding: 0.5rem 4rem;
+    border-radius: 8px;
 }
 
-.footer{
-    margin-top: 5rem;
+.action-link a{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
 }
 
 .footer-1{
