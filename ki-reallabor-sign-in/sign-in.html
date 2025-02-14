@@ -1,110 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KI Reallabor Sign-Up</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./sign-in.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KI Reallabor Sign-Up</title>
-  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./sign-in.css" />
-</head>
-
-<body>
-  <!--navbar start-->
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">
-      <img src="../img/Logo.svg" class="logo" alt="logo" />
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ms-auto">
-        <a class="nav-link active" aria-current="page" href="#">Data</a>
-        <a class="nav-link" href="#">Realproduction</a>
-        <a class="nav-link" href="#">Show cases</a>
-        <a class="nav-link" href="#">About us</a>
-        <button type="button" class="btn btn-outline-light mx-3 btn-lg">Register</button>
-        <button type="button" class="btn btn-warning btn-lg text-light">Log in</button>
+  <body>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="../img/Logo.svg" class="logo" alt="logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="#">Data</a>
+          <a class="nav-link" href="#">Realproduction</a>
+          <a class="nav-link" href="#">Show cases</a>
+          <a class="nav-link" href="#">About us</a>
+          <a class="nav-link" href="../ki-reallabor-resgistration/index.html">
+            <button type="button" class="btn btn-outline-light btn-lg">
+              Register
+            </button>
+          </a>
+          <a class="nav-link" href="#">
+            <button type="button" class="btn btn-warning btn-lg text-light">
+              Log in
+            </button>
+          </a>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!--navbar end-->
+    </nav>
+    <!--navbar end-->
 
-  <!--Main-section start-->
-  <div class="main-section container">
-    <div class="login-form-wrapper">
-      <div class="login-form">
-        <h2 class="text-secondary text-center mb-5">Log In</h2>
-        <div class="d-flex justify-content-center mb-5 w-100">
-          <div class="input-group flex-nonwrap form-input">
-            <span class="input-group-text"><i class="fa-solid fa-envelope fa-xl" style="color: #6c757d;"></i></span>
-            <input type="text" class="form-control" id="username" placeholder="max.mustermann@xy.com" />
+    <!--Main-section start-->
+    <div class="main-section container">
+      <div class="login-form-wrapper">
+        <div class="login-form">
+          <h2 class="text-secondary text-center mb-5">Log In</h2>
+          <div class="d-flex justify-content-center mb-5 w-100">
+            <div class="input-group flex-nonwrap form-input">
+              <span class="input-group-text"
+                ><i
+                  class="fa-solid fa-envelope fa-xl"
+                  style="color: #6c757d"
+                ></i
+              ></span>
+              <input
+                type="text"
+                class="form-control"
+                id="username"
+                placeholder="max.mustermann@xy.com"
+              />
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mb-5 w-100">
+            <div class="input-group flex-nonwrap form-input">
+              <span class="input-group-text"
+                ><i class="fa-solid fa-lock fa-xl" style="color: #6c757d"></i
+              ></span>
+              <input
+                type="password"
+                class="form-control"
+                id="pws"
+                placeholder="*******"
+              />
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button
+              type="button"
+              class="login-form-btn btn btn-warning fs-4 btn-lg text-light"
+            >
+              Log in
+            </button>
           </div>
         </div>
-        <div class="d-flex justify-content-center mb-5 w-100">
-          <div class="input-group flex-nonwrap form-input">
-            <span class="input-group-text"><i class="fa-solid fa-lock fa-xl" style="color: #6c757d;"></i></span>
-            <input type="password" class="form-control" id="pws" placeholder="*******" />
-          </div>
+        <div
+          class="login-form-extras d-flex justify-content-between action-link"
+        >
+          <a href="#">Forgot Password?</a>
+          <a href="../ki-reallabor-resgistration/index.html"
+            >Create new account</a
+          >
         </div>
-        <div class="d-flex justify-content-center">
-          <button type="button" class="login-form-btn btn btn-warning fs-4 btn-lg text-light">Log in</button>
+      </div>
+    </div>
+    <!--Main-section end-->
+
+    <!--footer start-->
+    <div class="footer">
+      <div class="footer-1">
+        <ul class="nav justify-content-around">
+          <li class="nav-item">
+            <a href="#" class="nav-link">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Data</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Realproduction</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Terms of Use</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Data Governance</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-2 d-flex align-items-center justify-content-around">
+        <div class="footer-link">
+          <a href="#">Impressum</a>
+        </div>
+        <div class="footer-link">
+          <a href="#">www.ki-realbor.de/en</a>
+        </div>
+        <div class="footer-icon">
+          <img
+            src="../img/footer-logo-1.jpeg"
+            class="footer-icon-logo"
+            alt="footer-logo-1"
+          />
+        </div>
+        <div class="footer-icon d-flex flex-column align-items-center">
+          <span>Supported by:</span>
+          <img
+            src="../img/footer-logo-2.jpeg"
+            class="footer-icon-logo"
+            alt="footer-logo-2"
+          />
         </div>
       </div>
-      <div class="login-form-extras d-flex justify-content-between action-link">
-        <a href="#">Forgot Password?</a>
-        <a href="../ki-reallabor-resgistration/index.html">Create new account</a>
-      </div>
     </div>
-  </div>
-  <!--Main-section end-->
-
-  <!--footer start-->
-  <div class="footer">
-    <div class="footer-1">
-      <ul class="nav justify-content-around">
-        <li class="nav-item">
-          <a href="#" class="nav-link">About us</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Data</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Realproduction</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Terms of Use</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Data Governance</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer-2 d-flex align-items-center justify-content-around">
-      <div class="footer-link">
-        <a href="#">Impressum</a>
-      </div>
-      <div class="footer-link">
-        <a href="#">www.ki-realbor.de/en</a>
-      </div>
-      <div class="footer-icon">
-        <img src="../img/footer-logo-1.jpeg" class="footer-icon-logo" alt="footer-logo-1" />
-      </div>
-      <div class="footer-icon d-flex flex-column align-items-center">
-        <span>Supported by:</span>
-        <img src="../img/footer-logo-2.jpeg" class="footer-icon-logo" alt="footer-logo-2" />
-      </div>
-    </div>
-  </div>
-  <!--footer end-->
-  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="./sign-in.js"></script>
-</body>
-
+    <!--footer end-->
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./sign-in.js"></script>
+  </body>
 </html>
