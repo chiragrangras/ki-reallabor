@@ -4,15 +4,22 @@ body{
     background-size: 100% 33%;
 }
 
+.navbar{
+    padding: 1rem;
+}
+
 .logo{
     margin-left: 10%;
     width: 30%;
 }
 
+.navbar-gap{
+    gap: 2rem;
+}
+
 .navbar-nav a{
     color: white;
-    font-size: 1rem;
-    margin-right: 3rem;
+    font-size: 1.5rem;
 }
 
 .navbar-nav:hover a{
@@ -38,7 +45,7 @@ body{
 
 .select-form{
     background-color: white;
-    color: #9a9a9a;
+    color: #6c757d;
 }
 
 .form-input{
@@ -54,7 +61,7 @@ body{
     background-color: white;
     color: black;
     border-radius: 0.8rem;
-    width: 10vw;
+    width: 10rem;
 }
 
 .custom-file-upload:hover {
