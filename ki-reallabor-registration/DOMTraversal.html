@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script>
+        alert('Getting document.body in head results into empty output. document.body: ' + document.body);
+    </script> -->
+</head>
+
+<body>
+    <div id="main_content">
+        <div id="section_1">
+            <h1>Section 1</h1>
+            <p>Here is section 1</p>
+        </div>
+        <div id="section_2">
+            <h1>Section 2</h1>
+            <p>Here is section 2</p>
+        </div>
+        <div id="section_3">
+            <h1>Section 3</h1>
+            <p>Here is section 3</p>
+        </div>
+        <div id="section_4">
+            <h1>Section 4</h1>
+            <p>Here is section 4</p>
+        </div>
+    </div>
+    <script>
+        // Accessing DOM element by printing in console
+        console.log('document.title: ' + document.title);
+
+        // Accessing DOM element and storing it in a variable
+        const oldTitle = document.title;
+
+        // Manipulating DOM element
+        document.title = "DOM Traversal";
+
+        // Accessing DOM element and storing it in a variable
+        const newTitle = document.title;
+
+        // Printing my stored variables
+        console.log(`Old title: ${oldTitle}, New title: ${newTitle}, Old title === New title: ${oldTitle === newTitle}`);
+    </script>
+
+    <script>
+        // DOM Traversal using children property
+
+        // Getting main content from body
+        const mainContent = document.body.children[0]; // You can also write document.body.firstElementChild
+
+        // Printing mainContent
+        console.log('Main Content: ' + mainContent.outerHTML);
+
+        // Getting first element child of main content
+        const firstElementOfMain = mainContent.firstElementChild;
+        console.log('First Element of main: ' + firstElementOfMain.outerHTML);
+
+        // Getting last element child of main content
+
+        const lastElementOfMain = mainContent.lastElementChild;
+        console.log('Last element of main: ' + lastElementOfMain.outerHTML);
+
+        // Iterating over all elements of main
+        for(const item of mainContent.children){
+            console.log('--- Child Element: '+ item.outerHTML);
+        }
+
+    </script>
+
+
+    <!-- <script >
+        alert('Getting document.body in body results into proper output. document.body: ' + JSON.stringify(document.body));
+    </script> -->
+</body>
+
+</html>
